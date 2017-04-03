@@ -3,7 +3,7 @@ title: Dr. Nabil Imadali | Cabinet de dermatologie | Boumerdes
 description: "Site du cabinet dermatologique du Dr. Nabil Imadali."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: svg/min/newlogo.svg
 
 # Hero
 hero: 
