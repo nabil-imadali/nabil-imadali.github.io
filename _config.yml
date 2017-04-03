@@ -1,6 +1,6 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Dr. Nabil Imadali | Cabinet de dermatologie | Boumerdes
+description: "Site du cabinet dermatologique du Dr. Nabil Imadali."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -22,9 +22,9 @@ contact:
     address: Von schroeders 273, <br> Viña del mar - Chile
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+dimanche_jeudi: 9:00 – 17:00
+samedi: 9:00 – 16:00
+vendredi: fermeture
 
 # Testimonials
 testimonials:
