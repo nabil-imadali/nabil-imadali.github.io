@@ -19,7 +19,7 @@ contact:
     phone: 932 50 540
     emergency: 931 53 234
     email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    address: Cité 11 Decembre 1960, <br> Boumerdès - Algérie
 
 # Opening hours
 dimanche_jeudi: 9:00 – 17:00
@@ -33,7 +33,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: Cité 11 Decembre 1960, Boumerdès, Algérie
     address_details: svg/min/logo.svg
 
 # Social settings
