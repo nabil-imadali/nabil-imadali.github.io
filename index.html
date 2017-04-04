@@ -127,19 +127,19 @@ layout: default
 </div>
 <!-- End Treatments -->
 <!-- Start Map -->
-<div id="location" style="height:450px;width:100%;">
-    <div class="container-fluid">
-        <h2 class="section-title">Localisation</h2>
-            <script>
-                function myMap() {
-                var myCenter = new google.maps.LatLng(36.758273, 3.457447);
-                var mapProp = {center:myCenter, zoom:16, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-                var map = new google.maps.Map(document.getElementById("location"),mapProp);
-                var marker = new google.maps.Marker({position:myCenter});
-                marker.setMap(map);
-                }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnL8unPJDpxMNsVcG0CAp3E3KCaIM9bJ4&callback=myMap"></script>
+<div class="container-fluid">
+    <h2 class="section-title">Localisation</h2>
+    <div id="location" style="height:450px;width:100%;">
+        <script>
+            function myMap() {
+            var myCenter = new google.maps.LatLng(36.758273, 3.457447);
+            var mapProp = {center:myCenter, zoom:16, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("location"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnL8unPJDpxMNsVcG0CAp3E3KCaIM9bJ4&callback=myMap"></script>
     </div>
 </div>
 <!-- End Map -->
