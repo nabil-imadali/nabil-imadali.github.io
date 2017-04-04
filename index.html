@@ -37,48 +37,6 @@ layout: default
     </div>
 </div>
 <!-- End Hero -->
-
-<!-- Start 3 columns -->
-<div class="three-shade-col">
-    <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact</h3>
-        <ul>
-            {% if site.contact.phone %}<li><strong>Tel:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Urgences:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Horaires d'ouverture</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Dimanche – Jeudi</td>
-                    <td>{{ site.dimanche_jeudi }}</td>
-                </tr>
-                <tr>
-                    <td>Samedi</td>
-                    <td>{{ site.samedi }}</td>
-                </tr>
-                <tr>
-                    <td>Vendredi</td>
-                    <td>{{ site.vendredi }}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Localisation</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
-    </div>
-</div>
-<!-- End 3 columns -->
-
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
@@ -129,6 +87,48 @@ layout: default
     </div>
 </div>
 <!-- End About -->
+<!-- Start 3 columns -->
+<div class="three-shade-col">
+    <div class="col-sm-4">
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Contact</h3>
+        <ul>
+            {% if site.contact.phone %}<li><strong>Tel:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>Urgences:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>Horaires d'ouverture</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Dimanche – Jeudi</td>
+                    <td>{{ site.dimanche_jeudi }}</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                    <td>{{ site.samedi }}</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                    <td>{{ site.vendredi }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>Localisation</h3>
+            <p>
+                {{ site.contact.address }}
+            </p>
+    </div>
+</div>
+<!-- End 3 columns -->
+
+
 
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
@@ -198,7 +198,11 @@ layout: default
 
 <!-- Start Map -->
 <!--<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>-->
-<div id="location" style="height:400px;width:100%;"></div>
+<div id="location" style="height:450px;width:100%;">
+    <div class="container-fluid">
+        <h2 class="section-title">Localisation</h2>
+    </div>
+</div>
 <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(36.758273, 3.457447);
