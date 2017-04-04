@@ -1,14 +1,14 @@
 # Site settings
-title: Dr. Nabil Imadali | Cabinet de dermatologie | Boumerdes
+title: Dr. Nabil Imadali
 description: "Site du cabinet dermatologique du Dr. Nabil Imadali."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/newlogo.svg
+logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: Dr. Nabil Imadali | Cabinet de dermatologie | Boumerdes
+    hero_title: Dr. Nabil Imadali - Cabinet de dermatologie - Boumerdes
     hero_description: Site du cabinet dermatologique du Dr. Nabil Imadali.
 
 # Contact form
