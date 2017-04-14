@@ -6,10 +6,10 @@ url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
-hero: 
-    hero_img: hero.jpg
-    hero_title: Dr. Nabil Imadali - Cabinet de dermatologie - Boumerdes
-    hero_description: Site du cabinet dermatologique du Dr. Nabil Imadali.
+# hero: 
+#     hero_img: hero.jpg
+#     hero_title: Dr. Nabil Imadali - Cabinet de dermatologie - Boumerdes
+#     hero_description: Site du cabinet dermatologique du Dr. Nabil Imadali.
 
 # Contact form
 api_token: # Enter API token here
