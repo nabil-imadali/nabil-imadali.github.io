@@ -8288,7 +8288,7 @@ strong {
 .navbar-brand>img {
     display: inline-block;
     max-width: 220px;
-    max-height: 50px
+    max-height: 100px
 }
 
 @media (min-width: 480px) {
