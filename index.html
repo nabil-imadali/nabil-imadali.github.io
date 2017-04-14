@@ -121,7 +121,7 @@ layout: default
         <script>
             function myMap() {
             var myCenter = new google.maps.LatLng(36.758273, 3.457447);
-            var mapProp = {center:myCenter, zoom:16, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var mapProp = {center:myCenter, zoom:16, scrollwheel:true, draggable:true, mapTypeId:google.maps.MapTypeId.ROADMAP};
             var map = new google.maps.Map(document.getElementById("location"),mapProp);
             var marker = new google.maps.Marker({position:myCenter});
             marker.setMap(map);
