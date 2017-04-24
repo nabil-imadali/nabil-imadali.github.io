@@ -1,23 +1,23 @@
 - icon: icon-user-md
-  title: haja dermato
+  title: Dermatologie générale
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
-- icon: icon-diamond
-  title: Cosmetic Dentistry
+- icon: icon-bolt
+  title: Cheveux et cuir chevelu
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-tint
+  title: Chirurgie dermatologique
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
+- icon: icon-leaf
+  title: Epilation au laser cynosure
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
 - icon: icon-flask
-  title: Stain removal
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-
-- icon: icon-globe
-  title: Dentures
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
-
-- icon: icon-ambulance
-  title: Emergency Calls
+  title: Cryothérapie
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
 - icon: icon-bed
-  title: Sedation
+  title: Mésopécie
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
