@@ -114,7 +114,7 @@ layout: default
 </div>
 <!-- End Treatments -->
 <!-- Start Map -->
-<div class="container-fluid">
+<div class="map">
     <h2 class="section-title">Localisation</h2>
     <div id="location" style="height:450px;width:100%;">
         <script>
@@ -127,11 +127,11 @@ layout: default
                     draggable: true,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
-                var map = new google.maps.Map(document.getElementById("location"), mapProp);
+                var mapb = new google.maps.Map(document.getElementById("location"), mapProp);
                 var marker = new google.maps.Marker({
                     position: myCenter
                 });
-                marker.setMap(map);
+                marker.setMap(mapb);
             }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnL8unPJDpxMNsVcG0CAp3E3KCaIM9bJ4&callback=myMap"></script>
