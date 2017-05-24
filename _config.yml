@@ -16,9 +16,9 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: (Demander au secrétariat)
+    phone: Demander au secrétariat
 #    emergency: 931 53 234
-    email: nabil.imadali@yahoo.fr
+    email: dermatologue.boumerdes@gmail.com
     address: Cité 11 Decembre 1960, <br> Boumerdès - Algérie
 
 # Opening hours
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2017 Sofiane and Nabil Imadali, All rights reserved. (Based on the Jekyll DentistSmile template).
+copyright: © 2017 Sofiane and Nabil Imadali, All rights reserved. Based on the Jekyll DentistSmile template.
 
 # Build settings
 markdown: kramdown
