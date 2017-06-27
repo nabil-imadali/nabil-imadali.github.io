@@ -22,8 +22,7 @@ contact:
     address: Batiment 60, Numéro 2 <br> En face de la patisserie Mezghanna <br> Cité 11 Decembre 1960, <br> Boumerdès - Algérie
 
 # Opening hours
-dimanche_jeudi: 9:00 – 17:00
-samedi: 9:00 – 16:00
+samedi_jeudi: 8:00 – 17:00
 vendredi: fermeture
 
 # Testimonials
